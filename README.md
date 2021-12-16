@@ -19,3 +19,5 @@ npm install
 # Rodar Projeto
 npm run dev
 
+# Deploy Vercel
+Testar Projeto: "https://next-gallery-fire-base-izdi8kkou-rafaeldsreis.vercel.app/"
