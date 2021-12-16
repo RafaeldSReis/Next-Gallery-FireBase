@@ -12,7 +12,7 @@ export const Container = styled.div`
         border-radius: 10px;
     }
     button {
-        margin-left: 80px;
+        width: 100%;
         font-size: 15px;
         padding: 5px;
         border-radius: 15px;

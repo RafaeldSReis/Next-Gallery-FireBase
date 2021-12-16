@@ -32,6 +32,18 @@ export const PhotoList = styled.div`
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+
+    @media (max-width:768px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px
+    }
+
+    @media (max-width:321px) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px
+    }
 `;
 
 export const UploadForm = styled.form`
@@ -52,5 +64,14 @@ export const UploadForm = styled.form`
     }
     &:hover {
         opacity: 0.9;
+    }
+
+    @media (max-width:420px) {
+        input[type="submit"] {
+        margin-top: 20px;
+        }
+        input[type="file"] {
+            font-size:15px;
+        }
     }
 `;
