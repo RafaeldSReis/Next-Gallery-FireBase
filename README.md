@@ -20,4 +20,4 @@ npm install
 npm run dev
 
 # Deploy Vercel
-Testar Projeto: "https://next-gallery-fire-base-izdi8kkou-rafaeldsreis.vercel.app/"
+Testar Projeto: https://next-gallery-fire-base-l29u16za2-rafaeldsreis.vercel.app/
